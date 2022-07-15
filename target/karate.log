@@ -1,0 +1,629 @@
+02:12:46.034 [main] INFO  com.intuit.karate - karate.env system property was:  
+02:12:47.643 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users/
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.2)
+1 > accept: application/json
+
+02:12:48.491 [main] DEBUG com.intuit.karate - response time in milliseconds: 840.13
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < CF-Cache-Status: REVALIDATED
+1 < CF-RAY: 72ae49df0b8e9cf1-JNB
+1 < Cache-Control: max-age=43200
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 15 Jul 2022 00:12:48 GMT
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Pragma: no-cache
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QGPsHt2LTr1n3Y51%2FkjxVuYgfctdltLd%2Bhm%2FVUIjEbj%2F05ZCACoTLrB3Z0IrXu%2FoOwqv%2BkNqeBgqHLE4%2B6UgipEBLEMzxbb%2FKgTlm6uDO%2BYyJ6xCijupSewQw2cU%2F%2FPTPsQmm0n6%2FMaAtd9ddYjz"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1657796982
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+02:12:48.496 [main] INFO  com.intuit.karate - [print] [
+  {
+    "website": "hildegard.org",
+    "address": {
+      "zipcode": "92998-3874",
+      "geo": {
+        "lng": "81.1496",
+        "lat": "-37.3159"
+      },
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "street": "Kulas Light"
+    },
+    "phone": "1-770-736-8031 x56442",
+    "name": "Leanne Graham",
+    "company": {
+      "bs": "harness real-time e-markets",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "name": "Romaguera-Crona"
+    },
+    "id": 1,
+    "email": "Sincere@april.biz",
+    "username": "Bret"
+  },
+  {
+    "website": "anastasia.net",
+    "address": {
+      "zipcode": "90566-7771",
+      "geo": {
+        "lng": "-34.4618",
+        "lat": "-43.9509"
+      },
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "street": "Victor Plains"
+    },
+    "phone": "010-692-6593 x09125",
+    "name": "Ervin Howell",
+    "company": {
+      "bs": "synergize scalable supply-chains",
+      "catchPhrase": "Proactive didactic contingency",
+      "name": "Deckow-Crist"
+    },
+    "id": 2,
+    "email": "Shanna@melissa.tv",
+    "username": "Antonette"
+  },
+  {
+    "website": "ramiro.info",
+    "address": {
+      "zipcode": "59590-4157",
+      "geo": {
+        "lng": "-47.0653",
+        "lat": "-68.6102"
+      },
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "street": "Douglas Extension"
+    },
+    "phone": "1-463-123-4447",
+    "name": "Clementine Bauch",
+    "company": {
+      "bs": "e-enable strategic applications",
+      "catchPhrase": "Face to face bifurcated interface",
+      "name": "Romaguera-Jacobson"
+    },
+    "id": 3,
+    "email": "Nathan@yesenia.net",
+    "username": "Samantha"
+  },
+  {
+    "website": "kale.biz",
+    "address": {
+      "zipcode": "53919-4257",
+      "geo": {
+        "lng": "-164.2990",
+        "lat": "29.4572"
+      },
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "street": "Hoeger Mall"
+    },
+    "phone": "493-170-9623 x156",
+    "name": "Patricia Lebsack",
+    "company": {
+      "bs": "transition cutting-edge web services",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "name": "Robel-Corkery"
+    },
+    "id": 4,
+    "email": "Julianne.OConner@kory.org",
+    "username": "Karianne"
+  },
+  {
+    "website": "demarco.info",
+    "address": {
+      "zipcode": "33263",
+      "geo": {
+        "lng": "62.5342",
+        "lat": "-31.8129"
+      },
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "street": "Skiles Walks"
+    },
+    "phone": "(254)954-1289",
+    "name": "Chelsey Dietrich",
+    "company": {
+      "bs": "revolutionize end-to-end systems",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "name": "Keebler LLC"
+    },
+    "id": 5,
+    "email": "Lucio_Hettinger@annie.ca",
+    "username": "Kamren"
+  },
+  {
+    "website": "ola.org",
+    "address": {
+      "zipcode": "23505-1337",
+      "geo": {
+        "lng": "71.7478",
+        "lat": "-71.4197"
+      },
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "street": "Norberto Crossing"
+    },
+    "phone": "1-477-935-8478 x6430",
+    "name": "Mrs. Dennis Schulist",
+    "company": {
+      "bs": "e-enable innovative applications",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "name": "Considine-Lockman"
+    },
+    "id": 6,
+    "email": "Karley_Dach@jasper.info",
+    "username": "Leopoldo_Corkery"
+  },
+  {
+    "website": "elvis.io",
+    "address": {
+      "zipcode": "58804-1099",
+      "geo": {
+        "lng": "21.8984",
+        "lat": "24.8918"
+      },
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "street": "Rex Trail"
+    },
+    "phone": "210.067.6132",
+    "name": "Kurtis Weissnat",
+    "company": {
+      "bs": "generate enterprise e-tailers",
+      "catchPhrase": "Configurable multimedia task-force",
+      "name": "Johns Group"
+    },
+    "id": 7,
+    "email": "Telly.Hoeger@billy.biz",
+    "username": "Elwyn.Skiles"
+  },
+  {
+    "website": "jacynthe.com",
+    "address": {
+      "zipcode": "45169",
+      "geo": {
+        "lng": "-120.7677",
+        "lat": "-14.3990"
+      },
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "street": "Ellsworth Summit"
+    },
+    "phone": "586.493.6943 x140",
+    "name": "Nicholas Runolfsdottir V",
+    "company": {
+      "bs": "e-enable extensible e-tailers",
+      "catchPhrase": "Implemented secondary concept",
+      "name": "Abernathy Group"
+    },
+    "id": 8,
+    "email": "Sherwood@rosamond.me",
+    "username": "Maxime_Nienow"
+  },
+  {
+    "website": "conrad.com",
+    "address": {
+      "zipcode": "76495-3109",
+      "geo": {
+        "lng": "-168.8889",
+        "lat": "24.6463"
+      },
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "street": "Dayna Park"
+    },
+    "phone": "(775)976-6794 x41206",
+    "name": "Glenna Reichert",
+    "company": {
+      "bs": "aggregate real-time technologies",
+      "catchPhrase": "Switchable contextually-based project",
+      "name": "Yost and Sons"
+    },
+    "id": 9,
+    "email": "Chaim_McDermott@dana.io",
+    "username": "Delphine"
+  },
+  {
+    "website": "ambrose.net",
+    "address": {
+      "zipcode": "31428-2261",
+      "geo": {
+        "lng": "57.2232",
+        "lat": "-38.2386"
+      },
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "street": "Kattie Turnpike"
+    },
+    "phone": "024-648-3804",
+    "name": "Clementina DuBuque",
+    "company": {
+      "bs": "target end-to-end models",
+      "catchPhrase": "Centralized empowering task-force",
+      "name": "Hoeger LLC"
+    },
+    "id": 10,
+    "email": "Rey.Padberg@karina.biz",
+    "username": "Moriah.Stanton"
+  }
+]
+
+02:12:48.538 [main] INFO  com.intuit.karate - karate.env system property was:  
+02:12:48.546 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users/8
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: application/x-www-form-urlencoded
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.2)
+1 > accept: application/json
+
+02:12:48.623 [main] DEBUG com.intuit.karate - response time in milliseconds: 74.73
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Age: 22125
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 72ae49e3dc800532-JNB
+1 < Cache-Control: max-age=43200
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 15 Jul 2022 00:12:48 GMT
+1 < Etag: W/"209-CXz5ZN8wf6UnQeLsUzX00Zh7L2g"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Pragma: no-cache
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EFTsZeS73CQVy%2BwhYABHB4mkN%2B5CWADkbPLCAxCPPRORVgvlcbnUZ6JDCFX%2BwUfwOPVSn4OCL%2BfpofDxnFReXf6U92PSwu0EfZsG0h4DTQj8BU0qbhwG4TV%2Fl59tdWNnWpS89oFOoFzREIpx2m%2Fr"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1657821871
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{
+  "id": 8,
+  "name": "Nicholas Runolfsdottir V",
+  "username": "Maxime_Nienow",
+  "email": "Sherwood@rosamond.me",
+  "address": {
+    "street": "Ellsworth Summit",
+    "suite": "Suite 729",
+    "city": "Aliyaview",
+    "zipcode": "45169",
+    "geo": {
+      "lat": "-14.3990",
+      "lng": "-120.7677"
+    }
+  },
+  "phone": "586.493.6943 x140",
+  "website": "jacynthe.com",
+  "company": {
+    "name": "Abernathy Group",
+    "catchPhrase": "Implemented secondary concept",
+    "bs": "e-enable extensible e-tailers"
+  }
+}
+
+02:12:48.625 [main] INFO  com.intuit.karate - [print] {
+  "website": "jacynthe.com",
+  "address": {
+    "zipcode": "45169",
+    "geo": {
+      "lng": "-120.7677",
+      "lat": "-14.3990"
+    },
+    "suite": "Suite 729",
+    "city": "Aliyaview",
+    "street": "Ellsworth Summit"
+  },
+  "phone": "586.493.6943 x140",
+  "name": "Nicholas Runolfsdottir V",
+  "company": {
+    "bs": "e-enable extensible e-tailers",
+    "catchPhrase": "Implemented secondary concept",
+    "name": "Abernathy Group"
+  },
+  "id": 8,
+  "email": "Sherwood@rosamond.me",
+  "username": "Maxime_Nienow"
+}
+
+02:12:48.662 [main] INFO  com.intuit.karate - karate.env system property was:  
+02:12:48.670 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users/
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 411
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/13.0.2)
+1 > accept: application/json
+{"id":"11","name":"Khaya Mqikela","username":"Kairo","email":"Khaya.Mqikela@yahoo.com","address":{"street":"Kulas Light","suite":"Apt. 556","city":"Gwenborough","zip-code":"92998-3874","geo":{"lat":"81.1496","lng":"81.1496"}},"phone":"1-770-736-8031 x56442","website":"hildegard.org","company":{"name":"Romaguera-Crona","catchPhrase":"Multi-layered client-server neural-net","bs":"harness real-time e-markets"}}
+
+02:12:49.381 [main] DEBUG com.intuit.karate - response time in milliseconds: 710.33
+1 < 201
+1 < Access-Control-Allow-Credentials: true
+1 < Access-Control-Expose-Headers: Location
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 72ae49e48b5a9caf-JNB
+1 < Cache-Control: no-cache
+1 < Connection: keep-alive
+1 < Content-Length: 501
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 15 Jul 2022 00:12:49 GMT
+1 < Etag: W/"1f5-bod4ZtSDd8qzHyJ7CEqqZgIJF/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Location: http://jsonplaceholder.typicode.com/users//11
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Pragma: no-cache
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Pik68bSq6Xq9dxg0fUOlMDkWVMLpqRuGm2Wx4CfMEladVr4mSSQtjyedpKz3wdyTYQ12lyRzShG%2BQBqOYYXCTODLmj%2BH9%2FFr51y0CKHr4aL95p1M8fn97wnEoIafy%2F%2FE9Cm%2BoUpWwKWDcJ9zOf23"}],"group":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 998
+1 < X-Ratelimit-Reset: 1657844011
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{
+  "{\"id\":\"11\",\"name\":\"Khaya Mqikela\",\"username\":\"Kairo\",\"email\":\"Khaya.Mqikela@yahoo.com\",\"address\":{\"street\":\"Kulas Light\",\"suite\":\"Apt. 556\",\"city\":\"Gwenborough\",\"zip-code\":\"92998-3874\",\"geo\":{\"lat\":\"81.1496\",\"lng\":\"81.1496\"}},\"phone\":\"1-770-736-8031 x56442\",\"website\":\"hildegard.org\",\"company\":{\"name\":\"Romaguera-Crona\",\"catchPhrase\":\"Multi-layered client-server neural-net\",\"bs\":\"harness real-time e-markets\"}}": "",
+  "id": 11
+}
+
